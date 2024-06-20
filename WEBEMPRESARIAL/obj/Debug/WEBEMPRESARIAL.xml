@@ -1,0 +1,1409 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WEBEMPRESARIAL
+</name>
+</assembly>
+<members>
+<member name="T:WEBEMPRESARIAL.My.MyWebExtension">
+ <summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:WEBEMPRESARIAL.My.MyWebExtension.Computer">
+ <summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member>
+<member name="P:WEBEMPRESARIAL.My.MyWebExtension.User">
+ <summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member>
+<member name="P:WEBEMPRESARIAL.My.MyWebExtension.Request">
+ <summary>
+ Devuelve un objeto Request.
+ </summary>
+</member>
+<member name="P:WEBEMPRESARIAL.My.MyWebExtension.Response">
+ <summary>
+ Devuelve un objeto Response.
+ </summary>
+</member>
+<member name="P:WEBEMPRESARIAL.My.MyWebExtension.Log">
+ <summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZAR._LinkButton1">
+<summary>
+Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZAR._TXTCODIGO">
+<summary>
+Control TXTCODIGO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZAR._BTNVALIDAR">
+<summary>
+Control BTNVALIDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZAR._TXTNOMBRE">
+<summary>
+Control TXTNOMBRE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZAR._TXTTELEFONO">
+<summary>
+Control TXTTELEFONO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZAR._TXTCORREO">
+<summary>
+Control TXTCORREO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZAR._TXTDIRECCION">
+<summary>
+Control TXTDIRECCION.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZAR._TXTUSUARIO">
+<summary>
+Control TXTUSUARIO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZAR._TXTCONTRA">
+<summary>
+Control TXTCONTRA.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZAR._CHEACTIVO">
+<summary>
+Control CHEACTIVO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZAR._BTNACTUALIZAR">
+<summary>
+Control BTNACTUALIZAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZAR._BTNCANCELAR">
+<summary>
+Control BTNCANCELAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZAR._SqlDataSource2">
+<summary>
+Control SqlDataSource2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARAPARTAMENTO._LinkButton1">
+<summary>
+Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARAPARTAMENTO._TXTCODIGO">
+<summary>
+Control TXTCODIGO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARAPARTAMENTO._BTNVALIDAR">
+<summary>
+Control BTNVALIDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARAPARTAMENTO._TXTNUMERO">
+<summary>
+Control TXTNUMERO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARAPARTAMENTO._TXTPISO">
+<summary>
+Control TXTPISO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARAPARTAMENTO._TXTESTADO">
+<summary>
+Control TXTESTADO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARAPARTAMENTO._TXTPRECIO">
+<summary>
+Control TXTPRECIO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARAPARTAMENTO._TLTIPOAPAR">
+<summary>
+Control TLTIPOAPAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARAPARTAMENTO._BTNGUARDAR">
+<summary>
+Control BTNGUARDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARAPARTAMENTO._BTNCANCELAR">
+<summary>
+Control BTNCANCELAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARAPARTAMENTO._SqlDataSource2">
+<summary>
+Control SqlDataSource2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARCLIENTE._LinkButton1">
+<summary>
+Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARCLIENTE._TXTCODIGO">
+<summary>
+Control TXTCODIGO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARCLIENTE._BTNVALIDAR">
+<summary>
+Control BTNVALIDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARCLIENTE._TXTNOMBRE">
+<summary>
+Control TXTNOMBRE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARCLIENTE._TXTTELEFONO">
+<summary>
+Control TXTTELEFONO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARCLIENTE._TXTCORREO">
+<summary>
+Control TXTCORREO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARCLIENTE._TXTDIRECCION">
+<summary>
+Control TXTDIRECCION.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARCLIENTE._TXTTIPO">
+<summary>
+Control TXTTIPO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARCLIENTE._BTNACTUALIZAR">
+<summary>
+Control BTNACTUALIZAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARCLIENTE._BTNCANCELAR">
+<summary>
+Control BTNCANCELAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARCLIENTE._SqlDataSource3">
+<summary>
+Control SqlDataSource3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARHABITACION._LinkButton1">
+<summary>
+Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARHABITACION._TXTCODIGO">
+<summary>
+Control TXTCODIGO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARHABITACION._BTNVALIDAR">
+<summary>
+Control BTNVALIDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARHABITACION._TXTNUMERO">
+<summary>
+Control TXTNUMERO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARHABITACION._TXTUBICACION">
+<summary>
+Control TXTUBICACION.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARHABITACION._LTESTADO">
+<summary>
+Control LTESTADO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARHABITACION._TXTDETALLE">
+<summary>
+Control TXTDETALLE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARHABITACION._LTAPAR">
+<summary>
+Control LTAPAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARHABITACION._TXTPRECIO">
+<summary>
+Control TXTPRECIO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARHABITACION._BTNACTUALIZAR">
+<summary>
+Control BTNACTUALIZAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARHABITACION._BTNCANCELAR">
+<summary>
+Control BTNCANCELAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ACTUALIZARHABITACION._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARAPARTAMENTO._LinkButton1">
+<summary>
+Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARAPARTAMENTO._TXTCODIGO">
+<summary>
+Control TXTCODIGO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARAPARTAMENTO._BTNVALIDAR">
+<summary>
+Control BTNVALIDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARAPARTAMENTO._TXTNUMERO">
+<summary>
+Control TXTNUMERO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARAPARTAMENTO._TXTPISO">
+<summary>
+Control TXTPISO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARAPARTAMENTO._LTESTADO">
+<summary>
+Control LTESTADO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARAPARTAMENTO._TXTPRECIO">
+<summary>
+Control TXTPRECIO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARAPARTAMENTO._LTAPAR">
+<summary>
+Control LTAPAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARAPARTAMENTO._BTNGUARDAR">
+<summary>
+Control BTNGUARDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARAPARTAMENTO._BTNCANCELAR">
+<summary>
+Control BTNCANCELAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARAPARTAMENTO._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARHABITACION._LinkButton1">
+<summary>
+Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARHABITACION._TXTCODIGO">
+<summary>
+Control TXTCODIGO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARHABITACION._BTNVALIDAR">
+<summary>
+Control BTNVALIDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARHABITACION._TXTNUMERO">
+<summary>
+Control TXTNUMERO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARHABITACION._TXTUBICACION">
+<summary>
+Control TXTUBICACION.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARHABITACION._LTESTADO">
+<summary>
+Control LTESTADO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARHABITACION._TXTDETALLE">
+<summary>
+Control TXTDETALLE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARHABITACION._LTAPAR">
+<summary>
+Control LTAPAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARHABITACION._TXTPRECIO">
+<summary>
+Control TXTPRECIO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARHABITACION._BTNGUARDAR">
+<summary>
+Control BTNGUARDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARHABITACION._BTNCANCELAR">
+<summary>
+Control BTNCANCELAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARHABITACION._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARUSUARIO._LinkButton1">
+<summary>
+Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARUSUARIO._TXTCODIGO">
+<summary>
+Control TXTCODIGO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARUSUARIO._BTNVALIDAR">
+<summary>
+Control BTNVALIDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARUSUARIO._TXTNOMBRE">
+<summary>
+Control TXTNOMBRE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARUSUARIO._TXTTELEFONO">
+<summary>
+Control TXTTELEFONO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARUSUARIO._TXTCORREO">
+<summary>
+Control TXTCORREO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARUSUARIO._TXTDIRECCION">
+<summary>
+Control TXTDIRECCION.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARUSUARIO._TXTUSUARIO">
+<summary>
+Control TXTUSUARIO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARUSUARIO._TXTCONTRA">
+<summary>
+Control TXTCONTRA.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARUSUARIO._CHEACTIVO">
+<summary>
+Control CHEACTIVO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARUSUARIO._BTNGUARDAR">
+<summary>
+Control BTNGUARDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARUSUARIO._BTNCANCELAR">
+<summary>
+Control BTNCANCELAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.AGREGARUSUARIO._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Eliminar._LinkButton1">
+<summary>
+Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Eliminar._TXTCODIGO">
+<summary>
+Control TXTCODIGO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Eliminar._BTNVALIDAR">
+<summary>
+Control BTNVALIDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Eliminar._TXTNOMBRE">
+<summary>
+Control TXTNOMBRE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Eliminar._TXTTELEFONO">
+<summary>
+Control TXTTELEFONO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Eliminar._TXTCORREO">
+<summary>
+Control TXTCORREO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Eliminar._TXTDIRECCION">
+<summary>
+Control TXTDIRECCION.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Eliminar._TXTUSUARIO">
+<summary>
+Control TXTUSUARIO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Eliminar._TXTCONTRA">
+<summary>
+Control TXTCONTRA.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Eliminar._CHEACTIVO">
+<summary>
+Control CHEACTIVO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Eliminar._BTNELIMINAR">
+<summary>
+Control BTNELIMINAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Eliminar._BTNCANCELAR">
+<summary>
+Control BTNCANCELAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Eliminar._SqlDataSource3">
+<summary>
+Control SqlDataSource3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARAPARTAMENTO1._LinkButton1">
+<summary>
+Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARAPARTAMENTO1._TXTCODIGO">
+<summary>
+Control TXTCODIGO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARAPARTAMENTO1._BTNVALIDAR">
+<summary>
+Control BTNVALIDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARAPARTAMENTO1._TXTNUMERO">
+<summary>
+Control TXTNUMERO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARAPARTAMENTO1._TXTPISO">
+<summary>
+Control TXTPISO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARAPARTAMENTO1._LTESTADO">
+<summary>
+Control LTESTADO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARAPARTAMENTO1._TXTPRECIO">
+<summary>
+Control TXTPRECIO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARAPARTAMENTO1._TXTTIPO">
+<summary>
+Control TXTTIPO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARAPARTAMENTO1._BTNGUARDAR">
+<summary>
+Control BTNGUARDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARAPARTAMENTO1._BTNCANCELAR">
+<summary>
+Control BTNCANCELAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARAPARTAMENTO1._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARCLIENTE._LinkButton1">
+<summary>
+Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARCLIENTE._TXTCODIGO">
+<summary>
+Control TXTCODIGO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARCLIENTE._BTNVALIDAR">
+<summary>
+Control BTNVALIDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARCLIENTE._TXTNOMBRE">
+<summary>
+Control TXTNOMBRE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARCLIENTE._TXTTELEFONO">
+<summary>
+Control TXTTELEFONO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARCLIENTE._TXTCORREO">
+<summary>
+Control TXTCORREO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARCLIENTE._TXTDIRECCION">
+<summary>
+Control TXTDIRECCION.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARCLIENTE._TXTTIPO">
+<summary>
+Control TXTTIPO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARCLIENTE._BTNELIMINAR">
+<summary>
+Control BTNELIMINAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARCLIENTE._BTNCANCELAR">
+<summary>
+Control BTNCANCELAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARCLIENTE._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARHABITACION._LinkButton1">
+<summary>
+Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARHABITACION._TXTCODIGO">
+<summary>
+Control TXTCODIGO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARHABITACION._BTNVALIDAR">
+<summary>
+Control BTNVALIDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARHABITACION._TXTNUMERO">
+<summary>
+Control TXTNUMERO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARHABITACION._TXTUBICACION">
+<summary>
+Control TXTUBICACION.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARHABITACION._LTESTADO">
+<summary>
+Control LTESTADO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARHABITACION._TXTDETALLE">
+<summary>
+Control TXTDETALLE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARHABITACION._LTAPAR">
+<summary>
+Control LTAPAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARHABITACION._TXTPRECIO">
+<summary>
+Control TXTPRECIO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARHABITACION._BTNELIMINAR">
+<summary>
+Control BTNELIMINAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARHABITACION._BTNCANCELAR">
+<summary>
+Control BTNCANCELAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.ELIMINARHABITACION._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.LOGIN._TXTUSUARIO">
+<summary>
+Control TXTUSUARIO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.LOGIN._TXTCONTRASEÑA">
+<summary>
+Control TXTCONTRASEÑA.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.LOGIN._IBMLOGIN">
+<summary>
+Control IBMLOGIN.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.LOGIN._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.MENUPRINCIPAL._Panel1">
+<summary>
+Control Panel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.MENUPRINCIPAL._LBLUSUARIO">
+<summary>
+Control LBLUSUARIO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.MENUPRINCIPAL._LBLNOMBRE">
+<summary>
+Control LBLNOMBRE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.MENUPRINCIPAL._Menu1">
+<summary>
+Control Menu1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.NUEVOCLIENTE1._LinkButton1">
+<summary>
+Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.NUEVOCLIENTE1._TXTCODIGO">
+<summary>
+Control TXTCODIGO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.NUEVOCLIENTE1._BTNVALIDAR">
+<summary>
+Control BTNVALIDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.NUEVOCLIENTE1._TXTNOMBRE">
+<summary>
+Control TXTNOMBRE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.NUEVOCLIENTE1._TXTTELEFONO">
+<summary>
+Control TXTTELEFONO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.NUEVOCLIENTE1._TXTCORREO">
+<summary>
+Control TXTCORREO.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.NUEVOCLIENTE1._TXTDIRECCION">
+<summary>
+Control TXTDIRECCION.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.NUEVOCLIENTE1._LTTIPODOCU">
+<summary>
+Control LTTIPODOCU.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.NUEVOCLIENTE1._BTNGUARDAR">
+<summary>
+Control BTNGUARDAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.NUEVOCLIENTE1._BTNCANCELAR">
+<summary>
+Control BTNCANCELAR.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.NUEVOCLIENTE1._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Site1._head">
+<summary>
+Control head.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Site1._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WEBEMPRESARIAL.Site1._ContentPlaceHolder1">
+<summary>
+Control ContentPlaceHolder1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>
